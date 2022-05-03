@@ -26,10 +26,8 @@ html {
 }
 
 body {
-     font-family: 'Roboto', sans-serif;
-     /* width: 80%; */
-     margin: auto 0;
      display: flex;
+     font-family: 'Roboto', sans-serif;
 }  
 
 
@@ -50,11 +48,11 @@ body {
      border: 1px dotted black;
 } */
 
-/* sidebar */
+/* sidebar nav*/
 nav {
      display: flex;
+     font-size: 4rem;
      width: 20%;
-     font-size: 2rem;
      flex-direction: column;
      justify-content: space-between;
      padding: 10px;
@@ -73,9 +71,19 @@ li {
 /* main .clear {
 } */
 
+
 main {
      display: flex;
-     justify-content: space-around;
+     width: 80%;
+}
+
+.abt {
+     justify-content: flex-end;
+}
+p {
+     font-size: 2rem;
+     justify-content: flex-end;
+     padding: 10px 30px; 
 }
 
 img.sketch {
