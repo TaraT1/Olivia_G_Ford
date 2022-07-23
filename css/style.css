@@ -1015,7 +1015,9 @@ input.btn:focus { border-width: 2px; }
     09. Background image
 ====================================== */
 
-.cover-background { background-repeat: no-repeat !important; background-size: 50% !important; overflow: hidden; position: relative; background-position: right center !important; }
+.cover-background { background-repeat: no-repeat; background-size: 40%;  overflow: hidden; position: relative; background-position: center center;  }
+/* .cover-background { background-repeat: no-repeat; background-size: 50%;  overflow: hidden; position: relative; background-position: right center; } */
+/* O.cover-background { background-repeat: no-repeat !important; background-size: 50% !important; overflow: hidden; position: relative; background-position: right center !important; } */
 .fix-background { position: relative; background-size: cover !important; -webkit-animation-duration: 0s; -webkit-animation-fill-mode: none; overflow: hidden; background-position: center center; background-repeat: no-repeat !important; background-attachment: fixed !important; }
 .background-size-inherit { background-size: inherit; }
 .background-attachment-inherit { background-attachment: inherit; }
