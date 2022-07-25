@@ -4643,7 +4643,7 @@
     .home-vertical-portfolio .navbar { padding: 0 3.5rem;}
 
     /* freelancer */
-    /* .home-freelancer .title-extra-large-heavy { line-height: 90px; } */
+    .home-freelancer .title-extra-large-heavy { line-height: 90px; }
 
     /* fashion shop */
     .home-fashion-shop .tp-tabs { left: 50% !important; -webkit-transform: translateX(-50%) !important;-ms-transform: translateX(-50%) !important;transform: translateX(-50%) !important; top: auto !important; bottom: 5% !important; }
