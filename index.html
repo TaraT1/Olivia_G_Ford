@@ -19,36 +19,38 @@
         <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
     </head>
     
-    <body data-mobile-nav-style="classic"><!--+agency-->
+    <body data-mobile-nav-style="classic">
         <!--start header-->
         <header>
             <!-- start navigation -->
             <!--orig <nav class="navbar navbar-expand-lg bg-transparent border-bottom border-color-white-transparent header-light fixed-top navbar-boxed header-reverse-scroll"> -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll navbar-static-top">
-                <div class="container-fluid nav-header-container">
-                    <div class="col-auto col-lg-12 md-position-initial md-no-padding">
-                        <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                        </button>
-                        <div class="collapse navbar-static-top justify-content-center" id="navbarNav">
-                            <ul class="navbar-nav alt-font justify-content-center">
-                                <li class="nav-item"> 
-                                    <a href="#home" class="nav-link">Home</a></li>
-                                <li class="nav-item"> 
-                                    <a href="#about" class="nav-link">About</a></li>
-                                <li class="nav-item"> 
-                                    <a href="#awards" class="nav-link">Awards</a></li>
-                                <li class="nav-item"> 
-                                    <a href="#pubs" class="nav-link">Publications</a></li>
-                                <li class="nav-item"> 
-                                    <a href="#connect" class="nav-link">Connect</a></li>
-                            </ul>
+            <!-- orig<nav class="navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll navbar-static-top"> -->
+            <nav class="navbar navbar-expand-lg bg-transparent border-bottom border-color-white-transparent header-light fixed-top navbar-boxed header-always-fixed-scroll">
+                <div class="container-lg nav-header-container justify-content-center">
+                        <!-- orig<div class="navbar-static-top justify-content-center" id="navbarNav"> -->
+                       <div class="col-auto menu-order px-lg-0">
+                            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-line"></span>
+                                <span class="navbar-toggler-line"></span>
+                                <span class="navbar-toggler-line"></span>
+                                <span class="navbar-toggler-line"></span>
+                            </button> 
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                                <ul class="navbar-nav alt-font">
+                                    <li class="nav-item"> 
+                                        <a href="#home" class="nav-link">Home</a></li>
+                                    <li class="nav-item"> 
+                                        <a href="#about" class="nav-link">About</a></li>
+                                    <li class="nav-item"> 
+                                        <a href="#awards" class="nav-link">Awards</a></li>
+                                    <li class="nav-item"> 
+                                        <a href="#pubs" class="nav-link">Publications</a></li>
+                                    <li class="nav-item"> 
+                                        <a href="#connect" class="nav-link">Connect</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
             </nav>
         <!-- end navigation -->
         </header>
@@ -100,8 +102,9 @@
                 </div>
             </div>
             <!-- Poz 100 -->
-            <div class="container-fluid">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
+            <div class="container">
+                <div class="row justify-content-center"> 
+                <!-- row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5"> -->
                     <!-- start blog item -->
                     <div class="col text-center sm-margin-30px-bottom xs-margin-15px-bottom">
                         <div class="blog-post">
