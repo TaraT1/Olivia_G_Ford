@@ -794,14 +794,14 @@
         <!-- start form -->
         <div class="row justify-content-center">
             <div class="col-12">
-                <form id="project-contact-form" name="contact" action="email-templates/contact-form.php" method="POST" data-netlify-recaptcha="true" data-netlify="true" novalidate="">
+                <form id="project-contact-form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="#">
                     <div class="row row-cols-1 row-cols-md-2">
                         <div class="col margin-4-rem-bottom sm-margin-25px-bottom">
                             <input class="medium-input bg-white margin-25px-bottom required" type="text" name="name" placeholder="Your name">
                             <input class="medium-input bg-white margin-25px-bottom required" type="email" name="email" placeholder="Your email address">
                         </div>
                         <div class="col margin-4-rem-bottom sm-margin-20px-bottom">
-                            <textarea class="medium-textarea bg-white h-200px" rows="6" name="comment" placeholder="Your message"></textarea>
+                            <textarea class="medium-textarea bg-white h-200px" rows="6" name="message" placeholder="Your message"></textarea>
                         </div>
                         <!-- <div class="col text-start sm-margin-20px-bottom">
                             <input type="checkbox" name="terms_condition" id="terms_condition" value="1" class="terms-condition d-inline-block align-top w-auto mb-0 margin-10px-right margin-5px-top required">
